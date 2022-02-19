@@ -1,0 +1,31 @@
+.social-links .link {
+  color: teal;
+}
+
+.social-links .link:hover,
+.link:focus {
+  color: rgb(241, 199, 12);
+}
+
+.social-links .link:active {
+  color: rgb(6, 247, 255);
+}
+
+.social-links .link:visited {
+  color: rgb(57, 240, 57);
+}
+.schedule-body > tr:hover {
+  background-color: tomato;
+  color: white;
+}
+
+/* Оформление таблицы */
+.schedule {
+  border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+  padding: 8px;
+  border: 1px solid #212121;
+}
